@@ -30,6 +30,11 @@ nav ul{
 }
 nav ul li{
     font-size: 18px;
+    list-style-type: none;
+    
+}
+nav ul li:hover{
+   color: rgb(97, 97, 173); 
 }
  li.active{
     color: rgb(16, 75, 144);
@@ -92,7 +97,94 @@ width: 50%;
     background-color: rgb(247, 247, 247);
     border-radius: 20px;
 }
+div.finder{
+    margin-top: 25px;
 
+}
+input{
+    width: 150px;
+    padding: 10px 5px;
+    font-size: 18;
+    font-weight: 900;
+    border-radius: 6px;
+    border: solid white;
+    background-color: rgb(255, 255, 255); 
+    margin-left: 15px;
+}
+select{
+    padding: 10px 15px;
+    font-size: 18;
+    font-weight: 700;
+    border-radius: 5px;
+    border: solid white;
+    background-color: white;
+    margin-left: 10px;
+}
+button{
+    margin-left: 60px;
+    background-color:  rgb(16, 75, 144);
+    padding: 10px 15px;
+    font-size: 18;
+    font-weight: 700;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    /* box-shadow: rgba(10, 10, 106, 0.466)0px 7px 29px 0px; */
+ } 
+ div.middle-text{
+    margin-top: 10%;
+    margin-left: 30%;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 700; 
+ }
+ p.mt{
+    padding: 10px 220px;
+    margin-top: 15px;
+    font-weight: 700;
+    color: grey;
+    font-size: 20px;
+    /* line-height: 30px; */
+ }
+ span.down-text{
+    margin-top: 15px;
+    font-weight: 700;
+    font-size: 20px;
+    color: grey;
+    padding: 10px 380px;
 
+ }
+ div.rooms{
+    display: flex;
+    padding: 40px 200px;
+    gap: 30px;
+ }
+div.down-pics{
+    border-radius: 20px;
+    box-shadow: rgba(255, 255, 255,0.1) 0px 1px 1px 0px inset,
+    rgba(50, 50, 93, 0.25)0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+    width: 290px;
+    height: 320px;
+    /* background-color: rgb(247, 247, 247); */
+    position: relative;
 
+  
+}
 
+span img{
+    width: 280px;
+    height: 200px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+h3{
+    margin-left: 10px;
+    position: absolute;
+    top: 170px;
+    color: white;
+}
+h4{
+    margin: 20px 10px;
+}
